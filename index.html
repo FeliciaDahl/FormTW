@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
+    <title>SheTech</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/a576612222.css" crossorigin="anonymous">
     <script src="https://cdn.tailwindcss.com"></script>
     
     <style type="text/tailwindcss">
@@ -26,7 +27,20 @@
  
 </head>
 <body class="bg-gradient-to-r from-indigo-100 from-10% via-purple-100 via-50% to-pink-100 to-90% box-borderfont-sans">
-
+<header>
+  <section class="nav-bar"></section>
+ <nav>
+  <div class="header text-xs flex gap-2 justify-between px-1">
+    <a href="#" class="font-extrabold"><i class="fa-solid fa-cloud"></i>SHETECH</a>
+    <div class=" font-semibold flex gap-1 flex-end">
+    <a class="hover:underline" href="#">Home</a>
+    <a class="hover:underline" href="#">About Us!</a>
+    <a class="hover:underline" href="#">Community</a>
+  </div>
+  </div>
+ </nav>
+</header>
+<section class="membership">
 <div class="container mx-auto text-center p-3 ">
 
     <div class="headline my-3">
@@ -34,8 +48,6 @@
         <p class="text-sm pt-2">Please fill in your information to be part of our community!</p>
     </div>
     
-
-
 <form id="regForm" class="reg-form py-3 bg-white rounded-md flex flex-col items-center space-y-3">
 
   <div class="input-group flex items-center w-1/2">
@@ -72,7 +84,7 @@
 </div>
 </form>
 </div>
-
+</section>
     <script src="script.js"></script>
 </body>
 </html>
